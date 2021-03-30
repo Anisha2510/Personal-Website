@@ -1,0 +1,71 @@
+html, body{
+  background-color: #d3e0ea;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+#start {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+}
+
+.bio {
+  font-family: 'Quintessential', cursive;
+  font-weight:500;
+  font-size: larger;
+  color: #301b3f;
+}
+
+.quote {
+  font-family: 'Satisfy', cursive;
+  font-size: 45px;
+}
+
+.dblquote {
+  font-size: 50px;
+}
+
+.content {
+  background: rgba( 246, 245, 245, 0.45 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 11.0px );
+  -webkit-backdrop-filter: blur( 11.0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 70%;
+  /* height: 100%; */
+  margin: auto;
+  }
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgb(10, 10, 10); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; 
+  animation: typewriter 5s steps(7) infinite, blinking-cursor 0.8s infinite;
+  animation-fill-mode: forwards;
+  
+  }
+
+@keyframes typewriter {
+  0% { width:0 }
+  25% { width: 70% }
+  48% { width: 100% }
+  50% { width: 100% }
+  55% { width: 100% }
+  75% { width: 70%; }
+  85% { width: 30%; }
+  100% { width: 0; }
+}
+
+@keyframes blinking-cursor {
+  from { border-color: transparent }
+  to { border-color: #000 }
+}
+
+.fa {
+  color: rgb(156, 156, 240);
+}
+
