@@ -1,8 +1,20 @@
-html, body{
-  background-color: #d3e0ea;
+
+body{
+  /* background-color: #d3e0ea; */
   text-align: center;
   height: 100%;
   width: 100%;
+  background-image: url("images/retrosupply-jLwVAUtLOAQ-unsplash.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+footer {
+  z-index: 100;
+  position: relative;
+  bottom: 0;
 }
 
 #start {
@@ -20,10 +32,14 @@ html, body{
 .quote {
   font-family: 'Satisfy', cursive;
   font-size: 45px;
+  z-index: 100;
+  position: relative;
 }
 
 .dblquote {
   font-size: 50px;
+  z-index: 100;
+  position: relative;
 }
 
 .content {
@@ -36,6 +52,8 @@ html, body{
   width: 70%;
   /* height: 100%; */
   margin: auto;
+  z-index: 100;
+  position: relative;
   }
 
 .typewriter h1 {
